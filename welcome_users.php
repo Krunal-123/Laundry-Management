@@ -47,7 +47,7 @@ else{
         color: white;
         text-align: center;
         font-size: 18px;
-        border-radius: 8px;
+        border-radius: 25px;
         margin-top: 50px;
         text-decoration: none;
       }
