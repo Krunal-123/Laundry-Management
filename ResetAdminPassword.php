@@ -49,7 +49,7 @@ if (isset($_POST['p'])) {
     header('location:view_admins.php');
   }
   else{
-    echo"<script>alert('Admin Password Is Wrong')</script>";
+    echo"<script>alert('Super Admin Password Is Wrong')</script>";
   }
 }
 ?>
