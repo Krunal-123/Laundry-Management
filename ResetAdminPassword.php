@@ -44,7 +44,9 @@ if(isset($_POST["submit"])){
 
 if (isset($_POST['p'])) {
   if ($_POST['pass']=='462863') {
-    header('location:view_admin.php');
+    $admin='admin';
+    $_SESSION["admin"] = $admin;
+    header('location:view_admins.php');
   }
   else{
     echo"<script>alert('Admin Password Is Wrong')</script>";
@@ -151,7 +153,7 @@ if (isset($_POST['p'])) {
                     </div>
                     <div class="modal-body">
                       <!-- form -->
-                      <form class="for" action="view_admins.php" method="post" autocomplete="off">
+                      <form class="for" action="ResetAdminPassword.php" method="post" autocomplete="off">
                       <img src="https://th.bing.com/th/id/OIP.9bLa6OsvYEWKly7Zu9bUowHaHa?rs=1&pid=ImgDetMain" alt="">
                       <h2>SUPER ADMIN</h2>
                       <input class="text-left w-100" type="password" name="pass" placeholder="Password">

@@ -100,7 +100,7 @@ try {
     <!-- css -->
     <style>
       body {
-        background-image: url("https://wallpaperaccess.com/full/1093324.jpg");
+        background-image: url("https://r4.wallpaperflare.com/wallpaper/225/365/217/anime-digital-digital-art-artwork-laundry-hd-wallpaper-3950783de11a2d0b06b7283f0081865d.jpg");
         background-size: cover;
         background-color: #F9F9F9;
         font-family: "Poppins", sans-serif;
@@ -110,8 +110,10 @@ try {
       }
 
       form {
+        color: #fff;
+        /* opacity:0.7; */
         border: 3px solid #f1f1f1;
-        background-color: #ffffff;
+        background-color: transparent;
         max-width: 500px;
         margin: 100px auto;
         padding: 20px;
@@ -139,8 +141,10 @@ try {
       }
       button {
         width: 100%;
-        background-color: #09d8d8;
-        color: white;
+        background-image: url("https://wallpaperaccess.com/full/1845278.jpg");
+        /* background-size: contain;
+        background-repeat: repeat-x; */
+        color: #ffffff;
         padding: 14px 20px;
         margin: 20px auto;
         border: none;
@@ -183,7 +187,7 @@ try {
         
         <button class="" type="submit" name="register">Register</button>
         <div class="link">
-          <p>Have already an account?<a href="flip.php"> Login back</a></p>
+          <p>Have already an account?<a href="index.php"> Login back</a></p>
         </div>
       </div>
     </form>

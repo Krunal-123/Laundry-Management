@@ -21,7 +21,7 @@ if(empty($_SESSION['id2'])){
     <style>
       
   body {
-    background: url("https://p.turbosquid.com/ts-thumb/SJ/ax8KF1/iyGHhcLZ/example_scene/jpg/1585870436/1920x1080/fit_q87/0071027355af1cb38fd70f6260bf65974e4dd6ad/example_scene.jpg");
+    background: url("https://i.ytimg.com/vi/3zXgztLRwek/maxresdefault.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     box-sizing: border-box;
@@ -81,7 +81,7 @@ if(empty($_SESSION['id2'])){
       }
       /* Colors for the different cards */
       .card-1 {
-        background-color: #00e54c;
+        background-color: #e2ff07;
       }
       .card-2 {
         background-color: rgb(5, 211, 222);
@@ -94,7 +94,7 @@ if(empty($_SESSION['id2'])){
         background-color: #fff;
       }
       .card-5 {
-        background-color: #7927ff;
+        background-color: #fd4011;
       }
       footer{
         width: 100%;
@@ -129,8 +129,6 @@ if(empty($_SESSION['id2'])){
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <li><a class="dropdown-item" href="registration_staff.php">Add Staff</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="registration_NEWadmin.php">Add Admin</a></li>
                     <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item" href="view_staff.php">View Staff</a></li>
                     <li><hr class="dropdown-divider"></li>

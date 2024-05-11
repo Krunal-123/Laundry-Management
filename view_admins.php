@@ -4,8 +4,8 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
-if(empty($_SESSION["id2"])){
-  header('location:index.php');
+if(empty($_SESSION['admin'])){
+  header('location:dashboard2.php');
 }
 
 if (!empty(isset($_POST['sear']))) {
@@ -101,7 +101,10 @@ else{
   echo"<script>alert('Confirm Password Is Wrong')</script>";
 }
 }
-
+if (isset($_POST['back'])) {
+  unset($_SESSION['admin']);
+  header('location:dashboard2.php');
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -292,7 +295,13 @@ else{
     </div>
     <footer class="fixed-bottom">
     <div class="d-flex justify-content-around m-0">
-      <button class="btn-sm btn-primary m-1"><a class="text-light"style="text-decoration:none;"href="dashboard2.php">Go back</a></button>
+      <form action="view_admins.php" method="post">
+        <button class="btn-sm btn-primary m-1" type="submit" name="back">
+          <!-- <a class="text-light"style="text-decoration:none;"href="dashboard2.php"> -->
+          Go back
+        <!-- </a> -->
+      </button>
+      </form>
       <p>&copy;created by Krunal Team. All rights reserved.</p>
       <button class="btn-sm btn-primary m-1">
         <a class="text-light" style="text-decoration:none;" href="registration_NEWadmin.php">Add-Admin</a>

@@ -57,12 +57,11 @@ if (isset($_POST['submit'])) {
 			}
 		}
 		 .form {
-			 background-image: url("https://img.freepik.com/free-vector/gradient-abstract-background-with-different-shapes_23-2149112894.jpg?w=1800&t=st=1715191910~exp=1715192510~hmac=7bf39fa2a8257032486cdb3741251c9f130dec339a7c2c4f9f658758176c8c24");
 			 margin: 0 auto;
 			 margin-top:100px;
 			border:5px solid black;
 			 border-radius:10px;
-			 background-color: #ffffff;
+			 background-color: transparent;
 			 max-width: 500px;
 			 padding: 20px;
 			 width: 50%;

@@ -1,8 +1,8 @@
 <?php
 require 'config.php';
 
-if(empty($_SESSION["id2"])){
-  header('location:index.php');
+if(empty($_SESSION['admin'])){
+  header('location:dashboard2.php');
 }
 
 if(isset($_POST["login"])){
@@ -66,7 +66,7 @@ if(isset($_POST["register"])){
     <title>Loundry Account-Create</title>
     <style>
       body {
-        background-image: url("https://i.pinimg.com/originals/6f/6c/15/6f6c1538b050072b002dbc06bedaaf90.jpg");
+        background-image: url("https://c4.wallpaperflare.com/wallpaper/384/350/430/digital-art-artwork-cyber-cyberpunk-neon-hd-wallpaper-preview.jpg");
         background-size: cover;
         background-color: #F9F9F9;
         font-family: "Poppins", sans-serif;
@@ -76,8 +76,9 @@ if(isset($_POST["register"])){
       }
 
       form {
+        color: #fff;
+        background-color: transparent;
         border: 3px solid #f1f1f1;
-        background-color: #ffffff;
         max-width: 500px;
         margin: 100px auto;
         padding: 20px;
@@ -89,13 +90,18 @@ if(isset($_POST["register"])){
         margin-top: 0;
       }
 
-      input[type=text], input[type=email], input[type=password] {
+      input[type=text], input[type=email], input[type=password],select{
+        color: #fff;
         width: 100%;
         padding: 12px 20px;
         margin: 8px 0;
         border: 1px solid #ccc;
         border-radius: 5px;
         box-sizing: border-box;
+        background-color: transparent;
+      }
+      option{
+        color: black;
       }
       .check{
         width: 100%;
@@ -134,7 +140,7 @@ if(isset($_POST["register"])){
 
         <!-- <label for="email"><b>Email:</b></label> -->
         <input type="email" placeholder="Email" name="email" required><br>
-        <select class="form-select" aria-label="Default select example" name="gender" required>
+        <select aria-label="Default select example" name="gender" required>
           <option value="">-Gender-</option>
           <option value="Male">Male</option>
           <option value="female">female</option>
@@ -151,7 +157,7 @@ if(isset($_POST["register"])){
         
         <button class="" type="submit" name="register">Register</button>
         <div class="link">
-          <p>Have already an account?<a href="dashboard2.php"> Login back</a></p>
+          <p>Have already an account?<a href="view_admins.php"> Go Back</a></p>
         </div>
       </div>
     </form>

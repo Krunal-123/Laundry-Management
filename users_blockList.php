@@ -131,7 +131,7 @@ $result = mysqli_query($conn, $query);
           <th>Email</th>
           <th>Gender:</th>
           <th>Phone no</th>
-          <!-- <th>password</th> -->
+          <th>password</th>
           <th>Address</th>
           <th class="text-success">UnBlocked</th>
         </tr>
@@ -141,7 +141,7 @@ $result = mysqli_query($conn, $query);
             <td class="email"><?php echo $row['email']; ?></td>
             <td class="gender"><?php echo $row['gender']; ?></td>
             <td class="phone"><?php echo $row['phone']; ?></td>
-            <td class="d-none password"><?php echo $row['password']; ?></td>
+            <td class="password"><?php echo $row['password']; ?></td>
             <td class="address"><?php echo $row['address']; ?></td>
             <td>
               <!-- Delete btn -->

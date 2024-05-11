@@ -21,7 +21,7 @@ if(empty($_SESSION['id3'])){
     <style>
       
   body {
-    background: url("https://p.turbosquid.com/ts-thumb/SJ/ax8KF1/iyGHhcLZ/example_scene/jpg/1585870436/1920x1080/fit_q87/0071027355af1cb38fd70f6260bf65974e4dd6ad/example_scene.jpg");
+    background: url("https://i.ytimg.com/vi/3zXgztLRwek/maxresdefault.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     box-sizing: border-box;
