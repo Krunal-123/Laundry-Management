@@ -203,7 +203,7 @@ $result = mysqli_query($conn, $query);
         <a class="text-light" style="text-decoration:none;" href="view_staff.php">View_Staff</a>
       </button>
       <button class="btn-sm btn-primary m-1">
-        <a class="text-light" style="text-decoration:none;" href="users_blockList.php">View_BLOCKEDLIST</a>
+        <a class="text-light" style="text-decoration:none;" href="users_blockList.php">Users_BlockList</a>
       </button>
       </div>
     </div>
