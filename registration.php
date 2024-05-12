@@ -110,8 +110,6 @@ try {
       }
 
       form {
-        color: #fff;
-        /* opacity:0.7; */
         border: 3px solid #f1f1f1;
         background-color: transparent;
         max-width: 500px;
@@ -124,8 +122,8 @@ try {
         text-align: center;
         margin-top: 0;
       }
-
-      input[type=text], input[type=email], input[type=password] {
+      input[type=text], input[type=email], input[type=password], select{
+        color:black;
         width: 100%;
         padding: 12px 20px;
         margin: 8px 0;
@@ -135,15 +133,12 @@ try {
       }
       .check{
         width: 100%;
-        /* padding: 12px 20px; */
         margin: 15px 0;
         display: inline-block;
       }
       button {
         width: 100%;
         background-image: url("https://wallpaperaccess.com/full/1845278.jpg");
-        /* background-size: contain;
-        background-repeat: repeat-x; */
         color: #ffffff;
         padding: 14px 20px;
         margin: 20px auto;
@@ -170,7 +165,7 @@ try {
 
         <!-- <label for="email"><b>Email:</b></label> -->
         <input type="email" placeholder="Email" name="email" required><br>
-        <select class="form-select" aria-label="Default select example" name="gender" required>
+        <select aria-label="Default select example" name="gender" required>
           <option value="">-Gender-</option>
           <option value="Male">Male</option>
           <option value="female">female</option>

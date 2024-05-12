@@ -105,7 +105,6 @@ if(isset($_POST["register"])){
       }
       .check{
         width: 100%;
-        /* padding: 12px 20px; */
         margin: 15px 0;
         display: inline-block;
       }
