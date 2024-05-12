@@ -55,7 +55,7 @@ try {
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
     $mail->Subject = 'RESET PASSWORD';
-    $mail->Body    = '<h2>Someone Has Change Your Loundry Account Password</h2>
+    $mail->Body    = '<h2>Someone Has Been Change Your Loundry Account Password</h2>
     <h3>Mail ID: '.$email.'<br><br>
     Your New Password: '.$new_password.'</h3>
     <h3>For More Help Contact By <a href="tel:+916355310515">Krunal Parmar</a> 😊🙏.</h3>';
