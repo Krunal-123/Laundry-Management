@@ -116,6 +116,15 @@ try {
         margin: 100px auto;
         padding: 20px;
         border-radius: 10px;
+        h2{
+          color:#fff;
+        }
+        p{
+          color:#fff;
+        }
+        label{
+          color:#fff;
+        }
       }
 
       h2 {
