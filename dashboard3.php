@@ -53,8 +53,8 @@ if(empty($_SESSION['id3'])){
       /* Style for the card-like structure */
       .card {
         display: inline-block;
-        width: 17vw;
-        height:33vh;
+        width: 300px;
+        height:300px;
         margin: 10px;
         padding: 5px;
         border: 5px solid black;
@@ -102,6 +102,11 @@ if(empty($_SESSION['id3'])){
         position: absolute;
         bottom: 0px;
       }
+      @media only screen and (max-width: 1530px) {
+.container {
+	margin:8% auto;
+}
+}
       /* Style for the price table */
     </style>
   </head>

@@ -124,7 +124,12 @@ if(isset($_POST["register"])){
         display: flex;
         justify-content: center;
       }
- 
+      @media only screen and (max-width:1530px){
+  form{
+    height: 97vh;
+      margin:1% auto;
+}
+}
     </style>
   </head>
   <body>

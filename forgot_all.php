@@ -136,6 +136,11 @@ try {
         float: right;
         font-size: larger;
       }
+      @media only screen and (max-width:1530px){
+  form{
+      margin:3% auto;
+}
+}
     </style>
   </head>
   <body>

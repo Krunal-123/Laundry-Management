@@ -113,7 +113,7 @@ try {
         border: 3px solid #f1f1f1;
         background-color: transparent;
         max-width: 500px;
-        margin: 100px auto;
+        margin: 5% auto;
         padding: 20px;
         border-radius: 10px;
         h2{
@@ -162,7 +162,12 @@ try {
         display: flex;
         justify-content: center;
       }
- 
+      @media only screen and (max-width:1530px){
+  form{
+    height:95vh;
+      margin:1% auto;
+}
+}
     </style>
   </head>
   <body>

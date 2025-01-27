@@ -234,7 +234,7 @@ if(isset($_POST["admin"])){
                 text-align:center;
                 img{
                   width:64%;
-                  margin :15%;
+                  margin-top:15%;
                   
                 }
             }
@@ -273,6 +273,17 @@ if(isset($_POST["admin"])){
     input[type="checkbox"]:checked {
       accent-color: blue;
     }
+}
+@media Only screen and (max-width:768px) {
+  body{
+    font-size:0.5rem;
+  }
+  .photo{
+    padding: 20% 0 0 0;
+    img{
+      height:65vh;
+    }
+  }
 }
     </style>
   </head>

@@ -185,7 +185,151 @@ if(!empty($_SESSION["id"])){
         .c{
           justify-content: space-around;
         }
-}
+      }
+      @media only screen and (max-width: 1530px) {
+        body {
+    font-size: 1rem;
+    /* box-sizing: border-box; */
+  }
+  nav{
+        h2{
+          font-size:2rem ;
+        }
+  }
+  .c{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    box-sizing: border-box;
+    h3{
+      font-weight: 700;
+    }
+  }
+
+      /* Style for the card-like structure */
+      .card {
+        font-size:0.8rem;
+        display: inline-block;
+        width: 260px;
+        height: 165px;
+        margin: 10px;
+        padding: 8px;
+        box-shadow: 4px 6px 4px 4px rgba(0,0,0,0.2);
+        border: 1px solid black;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+        a{
+      .bt{
+        width:50%;
+        padding: 5px;
+        border: 0px;
+        border-radius: 10px;
+        background-color: #fff;
+        text-decoration: none;
+        color: black;
+        }
+      }
+      a{
+      .bt:hover{
+        background-color: black;
+          color: #fff;
+        transition: all 0.4s ease;
+        }
+      }
+      }
+      .card:hover {
+        cursor: pointer;
+        border-radius: 20px;
+        transform: rotateX(10deg) translateY(-10px);
+        box-shadow: -6px 8px 4px 2px rgba(0, 0, 0, 0.6);
+      }
+      /* Colors for the different cards */
+      .card-1 {
+        background-color: #fb6730;
+      }
+      .card-2 {
+        background-color: #52baff;
+      }
+      .card-4 {
+        background-color: #ffff8c;
+      }
+      .card-5 {
+        background-color: #b76aff;
+      }
+      .card-5-1 {
+        background-color: rgb(27, 249, 160);
+      }
+      .card-5-2 {
+        background-color: rgb(247, 99, 255);
+      }
+      .card-6 {
+        background-color: #ff6161;
+      }
+      .card-7 {
+        background-color: #8753ff;
+      }
+
+      .head{
+        color: #6e30ff;
+        /* margin-top: -20px; */
+        margin-bottom: 62px;
+        .pricelist{
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: 700;
+      }
+        th{
+          color:whitesmoke;
+          font-size: larger;
+          font-weight: 700;
+        }
+        td{
+          color:whitesmoke ;
+        }
+        tr{
+          margin: 1px;
+          transition: all 0.2s ease;
+        }
+        tr:hover{
+          transform: rotateX(9deg) translateY(-9px);
+          font-weight: 600;
+        }
+      }
+      footer{
+        width: 100%;
+        height: 7vh;
+        padding: 10px;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+      }
+      /* Modal form */
+      .for{
+      border: 3px solid #f1f1f1;
+      background-color: #ffffff;
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 10px;
+    }
+    input[type=text],input[type=email],input[type=tel]{
+        width: 100%;
+        padding: 12px 20px;
+        margin-bottom: 16px;
+        display: block;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+      }
+      textarea{
+        width: 100%;
+        padding: 12px 20px;
+        margin-bottom: 16px;
+        display: block;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+      }
+    }
     </style>
   </head>
   <body>

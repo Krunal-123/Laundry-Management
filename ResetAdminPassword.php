@@ -122,6 +122,11 @@ if (isset($_POST['p'])) {
         float: right;
         font-size: larger;
       }
+      @media only screen and (max-width:1530px){
+  form{
+      margin:2% auto;
+}
+}
     </style>
   </head>
   <body>

@@ -57,8 +57,7 @@ if (isset($_POST['submit'])) {
 			}
 		}
 		 .form {
-			 margin: 0 auto;
-			 margin-top:100px;
+			 margin: 5% auto;
 			border:5px solid black;
 			 border-radius:10px;
 			 background-color: transparent;
@@ -129,7 +128,11 @@ if (isset($_POST['submit'])) {
 		height: 30px;
 		width: 30px;
 	  }
-
+@media only screen and (max-width: 1530px) {
+.form {
+	margin:1% auto;
+}
+}
 	</style>
 </head>
 <body>

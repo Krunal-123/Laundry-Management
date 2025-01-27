@@ -106,7 +106,11 @@ if(empty($_SESSION['id2'])){
         position: absolute;
         bottom: 0px;
       }
-
+      @media only screen and (max-width: 1530px) {
+.c{
+	margin:8% auto;
+}
+}
       @media screen and (max-width: 1024px) {
         .c{
           justify-content: space-around;

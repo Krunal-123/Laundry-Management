@@ -73,7 +73,7 @@ try {
 }
         // show success message
         echo"<script> alert('Password is Reset Successfuly<br>(pls Login Again!!)');</script>"; 
-        header('location:flip.php');
+        header('location:index.php');
       }
     }
     else{
@@ -143,6 +143,11 @@ try {
         float: right;
         font-size: larger;
       }
+      @media only screen and (max-width: 1530px) {
+form {
+	margin:5% auto;
+}
+}
     </style>
   </head>
   <body>

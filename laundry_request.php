@@ -223,6 +223,13 @@ function calculate_price($top_wear, $bottom_wear, $woolen_clothes){
         border-radius: 0 10px 10px 0;
     }
 }
+@media Only screen and (max-width: 1530px) {
+nav{
+  h2{
+    font-size:2rem;
+  }
+}
+}
 @media screen and (min-width:1024px) and (max-width: 1440px) {
         .for{
           width: 40%;
@@ -238,6 +245,7 @@ function calculate_price($top_wear, $bottom_wear, $woolen_clothes){
           width:80%;
         }
 }
+
   </style>
   </head>
   <body>
@@ -257,10 +265,10 @@ function calculate_price($top_wear, $bottom_wear, $woolen_clothes){
 
     <form id="form"class="for " action="" method="post" autocomplete="off">
       <label for="name">Name:</label>
-      <input style="width:37%; display:inline-block ;" type="text" name="name" id="name"required autocomplete="off" placeholder="Name" value="<?php echo$row["name"]?>">
+      <input style="width:35%; display:inline-block ;" type="text" name="name" id="name"required autocomplete="off" placeholder="Name" value="<?php echo$row["name"]?>">
 
       <label for="Phone">Phone no:</label> 
-      <input style="width: 38%; display:inline-block;" type="tel" name="phone" id="phone" required autocomplete="off" placeholder="+91"value="<?php echo$row["phone"]?>">
+      <input style="width: 35%; display:inline-block;" type="tel" name="phone" id="phone" required autocomplete="off" placeholder="+91"value="<?php echo$row["phone"]?>">
       <div class="flex my-5">
         <label for="name">Email:</label>
         <input style="width: 90%; display:inline-block;"  type="email" name="email" id="email"required autocomplete="off" placeholder="Email" value="<?php echo$row["email"]?>">
@@ -268,8 +276,8 @@ function calculate_price($top_wear, $bottom_wear, $woolen_clothes){
 
       <div class="flex my-5">
               <label for="pickup_date">Pickup Date&</label><label for="pickup_time">Time:</label>
-      <input style="width: 37%; display:inline-block;" type="date" name="pickup_date" id="pickup_date" required> 
-      <input style="width: 37%; display:inline-block;" type="time" name="pickup_time" id="pickup_time" required><br> 
+      <input style="width: 35%; display:inline-block;" type="date" name="pickup_date" id="pickup_date" required> 
+      <input style="width: 35%; display:inline-block;" type="time" name="pickup_time" id="pickup_time" required><br> 
       </div>
       <!-- incre or drece operation -->
       <div class="con-cent my-4">
